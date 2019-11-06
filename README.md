@@ -7,6 +7,7 @@ Dynamic Expandable RecyclerView for Android
 - You can **customize** parent and child **layouts**
 - You can **dynamically add new items**
 - You can **dynamically enable or disable** *Drag & Drop* and *Swipe to Dismiss* for parent and/or child items 
+- Easily add new rules for adding and reordering items
 
 ## Implementation
 
