@@ -28,7 +28,7 @@ for(int i = 1; i < 6; i++){
 ExpRecyclerView expRecyclerView = new ExpRecyclerView(
       this,
       (RecyclerView) findViewById(R.id.exp_view),
-      (TextView) findViewById(R.id.empty_view), //(optional param) if no items are in the list show a TextView "list is empty"
+      (TextView) findViewById(R.id.empty_view), //(optional param) if no items are in the list show a TextView "List is empty"
       parentList
 );
 
