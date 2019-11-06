@@ -10,5 +10,7 @@ Dynamic Expandable RecyclerView for Android
 - Easily add new rules for adding and reordering items
 
 ## Implementation
+Just copy the classes, the layouts and the content of the .txt files to your project.
 
 ## Usage
+Check out **DemoActivity.java**
