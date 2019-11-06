@@ -1,2 +1,8 @@
 # DynExRecyclerView
-Dynamic Expandable RecyclerView
+Dynamic Expandable RecyclerView for Android
+
+## Features
+
+## Implementation
+
+## Usage
