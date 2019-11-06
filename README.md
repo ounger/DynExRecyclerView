@@ -13,4 +13,10 @@ Dynamic Expandable RecyclerView for Android
 Just copy the classes, the layouts and the content of the .txt files to your project.
 
 ## Usage
-Check out **DemoActivity.java**
+Start checking out **DemoActivity.java**. Snippet:
+
+```java
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+
