@@ -48,11 +48,11 @@ Enable or disable Drag & Drop and Swipe dynamically:
 ```java
 expRecyclerView.enableParentsDrag();
 expRecyclerView.enableChildrenDrag();
-expRecyclerView.disableChildrenDrag();
-expRecyclerView.disableChildrenDrag();
 expRecyclerView.enableParentsSwipe();
-expRecyclerView.disableParentsSwipe();
 expRecyclerView.enableChildrenSwipe();
+expRecyclerView.disableParentsDrag();
+expRecyclerView.disableChildrenDrag();
+expRecyclerView.disableParentsSwipe();
 expRecyclerView.disableChildrenSwipe();
 ```
 
