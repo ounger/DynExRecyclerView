@@ -24,11 +24,12 @@ for(int i = 1; i < 6; i++){
       parentList.add(new Parent("Parent " + i, children));
 }
 
+/*Setup the recyclerview with the generated data.*/
 ExpRecyclerView expRecyclerView = new ExpRecyclerView(
       this,
       (RecyclerView) findViewById(R.id.exp_view),
-      (TextView) findViewById(R.id.empty_view), //if no items are in the list show TextView "list is empty"
+      (TextView) findViewById(R.id.empty_view), //(optional param) if no items are in the list show a TextView "list is empty"
       parentList
 );
 ```
-
+If you dont need the EmptyTextView use the other constructor: 
