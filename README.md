@@ -1,5 +1,5 @@
 # DynExRecyclerView
-Dynamic Expandable RecyclerView for Android with pretty animations.
+Dynamic Expandable RecyclerView for Android with pretty animations. You can drag an item by entering the darker drag area on the left side of each item. You can swipe an item to dissmiss it by leading it to the left or right edge of the screen.
 
 ## Pictures
 ![alt text][logo1]
