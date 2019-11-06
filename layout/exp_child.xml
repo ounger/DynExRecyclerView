@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="1dp">
+
+    <!--DragArea-->
+    <LinearLayout
+        android:id="@+id/dragArea"
+        android:orientation="horizontal"
+        android:layout_weight="0.1"
+        android:layout_width="0dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_height="match_parent"
+        android:background="@color/primary"
+        />
+
+    <!--Content-->
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_weight="0.9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@color/primary_light"
+        android:paddingLeft="8dp">
+
+        <TextView
+            android:id="@+id/childTv"
+            android:text="@string/child"
+            android:focusable="false"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+</LinearLayout>

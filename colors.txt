@@ -1,0 +1,7 @@
+<color name="white">#ffffff</color>
+<color name="primary">#204060</color>
+<color name="primary_dark">#112233</color>
+<color name="primary_light">#3a71a7</color>
+<color name="accent">#ab1111</color>
+<color name="primary_drag">#264c73</color>
+<color name="primary_dark_drag">#19334d</color> 

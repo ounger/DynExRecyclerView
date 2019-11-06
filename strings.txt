@@ -1,0 +1,4 @@
+<string name="empty_list">List is empty</string>
+<string name="parent">Parent</string>
+<string name="child">Child</string>
+<string name="button_expand">Expand</string> 

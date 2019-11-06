@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="1dp">
+
+    <!--DragArea-->
+    <LinearLayout
+        android:id="@+id/dragArea"
+        android:orientation="horizontal"
+        android:layout_weight="0.1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@color/primary_dark"
+        android:paddingBottom="1dp"/>
+
+    <!--Content-->
+    <LinearLayout
+        android:id="@+id/content"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.75"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@color/primary"
+        android:paddingLeft="8dp"
+        android:paddingStart="8dp">
+
+        <TextView
+            android:id="@+id/parentTv"
+            android:text="@string/parent"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+
+    <!--Expand-/Collapse-Button-->
+    <LinearLayout
+        android:id="@+id/expandButton"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.15"
+        android:background="@color/primary"
+        android:paddingBottom="1dp">
+
+        <ImageView
+            android:id="@+id/parent_list_item_expand_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/button_expand"
+            android:src="@android:drawable/arrow_down_float"
+            android:layout_gravity="center"
+            android:padding="8dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
