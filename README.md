@@ -1,5 +1,5 @@
 # DynExRecyclerView
-Dynamic Expandable RecyclerView for Android
+Dynamic Expandable RecyclerView for Android with pretty animations.
 
 ## Features
 - You can use **Drag & Drop** for reordering parent and child items
