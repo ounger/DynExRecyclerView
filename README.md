@@ -3,7 +3,8 @@ Dynamic Expandable RecyclerView for Android with pretty animations.
 
 ## Pictures
 ![alt text][logo1]
-[logo1]: https://github.com/ounger/DynExRecyclerView/blob/master/pictures/Screenshot_DynTest2_20191106-015007.png ""
+
+[logo1]: https://github.com/ounger/DynExRecyclerView/blob/master/pictures/collage.png ""
 
 
 ## Features
