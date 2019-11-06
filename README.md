@@ -16,6 +16,14 @@ Just copy the classes, the layouts and the content of the .txt files to your pro
 Start checking out **DemoActivity.java**. Snippet:
 
 ```java
+/*Generate some data. 5 parents. Each parent has 5 childelements.*/
+for(int i = 1; i < 6; i++){
+      List<Child> children = new ArrayList<>();
+      for(int j = 1; j < 6; j++)
+          children.add(new Child("Child " + j + " from Parent " + i));
+      parentList.add(new Parent("Parent " + i, children));
+}
+
 ExpRecyclerView expRecyclerView = new ExpRecyclerView(
       this,
       (RecyclerView) findViewById(R.id.exp_view),
