@@ -41,7 +41,11 @@ expRecyclerView.addParent(addedParent);
 Child addedChild = new Child("Dynamically added child 2");
 expRecyclerView.addChild(addedChild);
 
-/*Enable or disable Drag & Drop and Swipe dynamically*/
+```
+
+Enable or disable Drag & Drop and Swipe dynamically:
+
+```java
 expRecyclerView.enableParentsDrag();
 expRecyclerView.enableChildrenDrag();
 expRecyclerView.disableChildrenDrag();
