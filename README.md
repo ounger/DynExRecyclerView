@@ -16,7 +16,11 @@ Just copy the classes, the layouts and the content of the .txt files to your pro
 Start checking out **DemoActivity.java**. Snippet:
 
 ```java
-var s = "JavaScript syntax highlighting";
-alert(s);
+ExpRecyclerView expRecyclerView = new ExpRecyclerView(
+      this,
+      (RecyclerView) findViewById(R.id.exp_view),
+      (TextView) findViewById(R.id.empty_view),
+      parentList
+);
 ```
 
