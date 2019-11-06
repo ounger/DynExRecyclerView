@@ -31,5 +31,26 @@ ExpRecyclerView expRecyclerView = new ExpRecyclerView(
       (TextView) findViewById(R.id.empty_view), //(optional param) if no items are in the list show a TextView "list is empty"
       parentList
 );
+
+/*Add data dynamically*/
+List<Child> addedChildren = new ArrayList<>();
+addedChildren.add(new Child("Dynamically added child 1"));
+Parent addedParent = new Parent("Dynamically added parent", addedChildren);
+expRecyclerView.addParent(addedParent);
+
+Child addedChild = new Child("Dynamically added child 2");
+expRecyclerView.addChild(addedChild);
+
+/*Enable or disable Drag & Drop and Swipe dynamically*/
+expRecyclerView.enableParentsDrag();
+expRecyclerView.enableChildrenDrag();
+expRecyclerView.disableChildrenDrag();
+expRecyclerView.disableChildrenDrag();
+expRecyclerView.enableParentsSwipe();
+expRecyclerView.disableParentsSwipe();
+expRecyclerView.enableChildrenSwipe();
+expRecyclerView.disableChildrenSwipe();
 ```
-If you dont need the EmptyTextView use the other constructor: 
+
+## Notes
+If you need rules
