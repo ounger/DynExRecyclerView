@@ -57,4 +57,4 @@ expRecyclerView.disableChildrenSwipe();
 ```
 
 ## Notes
-If you need rules
+If you need custom rules for adding, reordering and dismissing items modify *ExpRecyclerView.class*'s addParent, addChild, ... methods.
