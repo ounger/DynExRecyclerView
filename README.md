@@ -19,7 +19,7 @@ Start checking out **DemoActivity.java**. Snippet:
 ExpRecyclerView expRecyclerView = new ExpRecyclerView(
       this,
       (RecyclerView) findViewById(R.id.exp_view),
-      (TextView) findViewById(R.id.empty_view), #if no items are in the list show TextView "list is empty"
+      (TextView) findViewById(R.id.empty_view), //if no items are in the list show TextView "list is empty"
       parentList
 );
 ```
